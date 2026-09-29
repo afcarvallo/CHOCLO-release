@@ -1,0 +1,8 @@
+model,LATAM,Europe,USA,included
+Deepseek_v31,1.0,1.0,1.0,True
+GPT35turbo,0.0,1.0,1.0,False
+GPT4o_mini,1.0,1.0,1.0,True
+GPT5mini,0.987,0.0,0.0,False
+Gemma_4b,1.0,1.0,1.0,True
+Llama38b,0.329,1.0,1.0,False
+qwen25_7b,1.0,1.0,1.0,True

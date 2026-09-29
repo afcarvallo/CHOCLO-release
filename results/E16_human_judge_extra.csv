@@ -1,0 +1,10 @@
+,0
+annotators,3.0
+human_human_spearman,0.3708342456734228
+weighted_kappa,0.35434342873987434
+binary_agreement_human_human,0.6666666666666666
+binary_agreement_judge_human,0.7166666666666667
+latam_minus_others_bias,-0.023125000000000007
+latam_vs_others_mwu_p,0.6339823230720383
+annotator_judge_spearman_min,0.289209641098815
+annotator_judge_spearman_max,0.38328531054056614

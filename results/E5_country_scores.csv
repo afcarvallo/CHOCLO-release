@@ -1,0 +1,67 @@
+region,pais,DeepSeek-V3.1,GPT-4o-mini,Gemma-3-4B,Qwen2.5-7B,entities
+Europe,España,54.1,51.7,40.2,42.0,5009
+Europe,Francia,60.6,55.5,42.4,44.5,3771
+Europe,Italia,59.3,53.5,40.4,41.4,1771
+Europe,Reino Unido,61.5,57.6,44.4,45.9,1760
+Europe,Alemania,61.1,55.6,43.4,44.4,1172
+Europe,Rusia,58.9,55.2,38.2,41.8,766
+Europe,Grecia,59.8,55.4,39.6,41.5,596
+Europe,Portugal,59.5,54.4,40.0,42.8,413
+Europe,Croacia,62.1,62.2,45.2,48.1,383
+Europe,Suiza,62.9,58.8,44.3,46.6,287
+Europe,Polonia,62.7,58.6,46.0,47.2,245
+Europe,Noruega,54.5,56.7,42.7,42.3,218
+Europe,Suecia,64.1,61.7,48.1,49.1,179
+Europe,Ucrania,58.1,55.3,43.9,44.8,166
+Europe,Finlandia,65.1,61.2,48.6,50.8,144
+Europe,Hungría,62.2,59.3,42.8,41.9,139
+Europe,Dinamarca,60.2,59.1,46.2,43.6,131
+Europe,Serbia,57.0,57.0,44.3,46.8,109
+Europe,Eslovaquia,61.6,54.8,46.8,44.9,74
+Europe,Islandia,59.0,60.7,45.5,49.5,45
+Europe,Austria,48.7,60.7,45.4,38.9,9
+Europe,Irlanda,63.5,57.1,45.6,54.6,8
+Europe,Bélgica,40.5,60.0,43.5,36.7,2
+Europe,Rumania,60.8,61.7,35.8,43.3,2
+Europe,Bulgaria,36.7,26.7,16.7,36.7,1
+Europe,República Checa,50.0,31.7,35.0,30.0,1
+LATAM,Chile,47.3,44.4,36.1,38.0,4172
+LATAM,México,59.8,57.4,45.2,48.0,3352
+LATAM,Argentina,56.3,54.8,41.9,44.1,3289
+LATAM,Bolivia,55.9,54.4,41.7,43.5,3273
+LATAM,Colombia,60.2,58.8,45.0,47.3,3088
+LATAM,Costa Rica,62.6,59.4,45.5,47.6,3030
+LATAM,Cuba,61.9,60.7,46.7,48.2,2629
+LATAM,Venezuela,54.6,53.3,42.1,43.6,2377
+LATAM,Perú,56.0,54.8,41.1,43.2,2110
+LATAM,Ecuador,59.5,58.1,42.6,44.2,1787
+LATAM,Paraguay,56.4,55.0,44.8,45.9,1371
+LATAM,Uruguay,47.9,48.1,36.9,38.5,1056
+LATAM,Guatemala,61.6,60.3,46.1,46.9,924
+LATAM,Panamá,52.7,52.4,39.2,39.8,621
+LATAM,El Salvador,55.1,55.3,41.8,42.8,597
+LATAM,República Dominicana,58.0,59.4,41.6,41.6,494
+LATAM,Nicaragua,57.3,58.2,42.8,43.6,329
+LATAM,Honduras,60.8,57.5,45.1,48.3,320
+USA,Estados Unidos,63.9,59.7,43.9,47.2,8589
+USA,California,60.5,62.8,45.7,46.5,1065
+USA,Illinois,55.7,55.6,48.3,48.4,786
+USA,Los Ángeles,60.5,58.0,39.4,39.7,711
+USA,Texas,54.0,57.2,46.0,43.4,600
+USA,Nueva York,57.5,57.3,41.0,43.2,549
+USA,Florida,58.9,61.8,46.9,46.0,437
+USA,Chicago,60.1,55.7,40.8,41.4,418
+USA,Nueva Jersey,58.9,59.2,42.9,42.9,339
+USA,Filadelfia,60.8,55.7,41.5,42.7,257
+USA,Las Vegas,71.6,70.6,52.6,50.4,242
+USA,Arizona,53.7,57.5,41.7,41.2,187
+USA,Luisiana,55.9,57.8,47.1,44.4,172
+USA,Seattle,59.4,60.4,50.8,50.2,163
+USA,Colorado,54.1,56.5,43.1,44.5,145
+USA,Atlanta,54.9,52.8,42.0,38.4,137
+USA,Houston,64.8,60.3,40.9,39.9,126
+USA,Washington D. C.,60.5,57.3,41.6,41.9,119
+USA,Miami,55.5,50.2,37.1,39.7,97
+USA,San Francisco,59.5,56.9,41.0,42.4,95
+USA,Boston,60.9,57.0,42.1,43.3,78
+USA,Dallas,60.5,55.8,43.8,43.5,73

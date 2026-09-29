@@ -1,0 +1,26 @@
+{
+ "regions": {
+  "Europe": {
+   "questions": 52195,
+   "entities": 17401
+  },
+  "LATAM": {
+   "questions": 104847,
+   "entities": 34818
+  },
+  "USA": {
+   "questions": 46160,
+   "entities": 15385
+  }
+ },
+ "models": [
+  "Deepseek_v31",
+  "GPT4o_mini",
+  "Gemma_4b",
+  "qwen25_7b"
+ ],
+ "validation_judgments": 1832,
+ "validation_annotators": 17,
+ "judge_items": 120,
+ "judge_annotators": 3
+}

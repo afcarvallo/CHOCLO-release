@@ -1,0 +1,13 @@
+model,dificultad,score_f1,score_embedding,score_gpt,average
+DeepSeek-V3.1,easy,27.53,53.59,63.86,48.33
+DeepSeek-V3.1,hard,25.1,57.89,58.31,47.1
+DeepSeek-V3.1,medium,29.72,57.01,52.86,46.53
+GPT-4o-mini,easy,27.46,55.14,63.07,48.56
+GPT-4o-mini,hard,24.74,56.04,55.54,45.44
+GPT-4o-mini,medium,26.27,54.48,49.2,43.32
+Gemma-3-4B,easy,17.08,46.39,46.92,36.8
+Gemma-3-4B,hard,17.71,52.08,46.4,38.73
+Gemma-3-4B,medium,15.01,47.53,34.7,32.41
+Qwen2.5-7B,easy,18.95,47.33,50.7,38.99
+Qwen2.5-7B,hard,18.72,52.3,46.58,39.2
+Qwen2.5-7B,medium,14.53,47.75,36.23,32.83
