@@ -9,6 +9,7 @@ Results are cached in src/cache/openai/*.jsonl, so the script can be resumed.
 """
 import argparse
 import json
+import re
 import os
 import threading
 import time
@@ -40,11 +41,11 @@ JUDGE_PROMPT = (
 _lock = threading.Lock()
 
 
-def call(model, prompt, key, **params):
+def call(model, prompt, key, url=URL, **params):
     body = {"model": model, "messages": [{"role": "user", "content": prompt}], **params}
     for attempt in range(8):
         try:
-            r = requests.post(URL, headers={"Authorization": f"Bearer {key}"}, json=body, timeout=120)
+            r = requests.post(url, headers={"Authorization": f"Bearer {key}"}, json=body, timeout=120)
             if r.status_code == 200:
                 d = r.json()
                 return d["choices"][0]["message"]["content"], d["usage"]
@@ -57,7 +58,7 @@ def call(model, prompt, key, **params):
     raise RuntimeError("too many retries")
 
 
-def run(jobs, path, key, workers):
+def run(jobs, path, key, workers, url=URL):
     """jobs: list of dicts with 'id', 'model', 'prompt', 'params'. Appends results to a jsonl cache."""
     done = set()
     if path.exists():
@@ -66,7 +67,7 @@ def run(jobs, path, key, workers):
     todo = [j for j in jobs if j["id"] not in done]
     print(f"{path.name}: {len(done)} cached, {len(todo)} to run")
     with ThreadPoolExecutor(workers) as ex, open(path, "a") as out:
-        futs = {ex.submit(call, j["model"], j["prompt"], key, **j["params"]): j for j in todo}
+        futs = {ex.submit(call, j["model"], j["prompt"], key, url, **j["params"]): j for j in todo}
         for n, fut in enumerate(as_completed(futs), 1):
             j = futs[fut]
             try:
@@ -88,10 +89,8 @@ def read(path):
 
 
 def parse_score(text):
-    try:
-        return float(np.clip(float(str(text).strip().split()[0].replace(",", ".")), 0, 1))
-    except ValueError:
-        return np.nan
+    m = re.search(r"\d+(?:[.,]\d+)?", str(text))
+    return float(np.clip(float(m.group().replace(",", ".")), 0, 1)) if m else np.nan
 
 
 def main():

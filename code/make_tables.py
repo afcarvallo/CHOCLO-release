@@ -292,7 +292,59 @@ def probe_table():
             wg = "--" if pd.isna(x.within_group_spearman) or "mean" in key else fmt(x.within_group_spearman)
             cells += [fmt(x.r2), wg]
         lines.append(" & ".join(cells) + r" \\")
+    # Own hidden states of the open-weight models (ridge, mean pooling, middle layer fixed a priori).
+    own = {"Gemma-3-4B": ("gemma", 17), "Qwen2.5-7B": ("qwen", 14)}
+    hp = ROOT / "gpu_probe" / "results"
+    if all((hp / f"E24_hidden_probe_{tag}.csv").exists() for tag, _ in own.values()):
+        lines.append(r"\midrule")
+        fmt = lambda v: f"${v:.2f}$"
+        for inp, label in [("contextual", "Ridge (own hidden states)"), ("entity", "Ridge (own, entity only)")]:
+            cells = [label]
+            for m in MODELS:
+                if m not in own:
+                    cells += ["--", "--"]
+                    continue
+                tag, mid = own[m]
+                h = pd.read_csv(hp / f"E24_hidden_probe_{tag}.csv")
+                x = h[(h.model == m) & (h.region == "All") & h.predictor.str.startswith(f"ridge ({inp}, mean, layer {mid}/")].iloc[0]
+                cells += [fmt(x.r2), fmt(x.within_group_spearman)]
+            lines.append(" & ".join(cells) + r" \\")
     write("probe", "\n".join(lines) + "\n")
+
+
+def hidden_probe_tables():
+    hp = ROOT / "gpu_probe" / "results"
+    own = {"Gemma-3-4B": "gemma", "Qwen2.5-7B": "qwen"}
+    if not all((hp / f"E24_hidden_probe_{t}.csv").exists() for t in own.values()):
+        return
+    # (a) input x pooling x layer, own-model target, within-group Spearman (R^2 in parentheses)
+    rows = []
+    for m, tag in own.items():
+        h = pd.read_csv(hp / f"E24_hidden_probe_{tag}.csv")
+        h = h[(h.model == m) & (h.region == "All") & h.predictor.str.startswith("ridge (")]
+        h = h.assign(inp=h.predictor.str.extract(r"ridge \((\w+),")[0], pool=h.predictor.str.extract(r", (last|mean),")[0],
+                     layer=h.predictor.str.extract(r"layer (\d+)/")[0].astype(int))
+        layers = sorted(h.layer.unique())
+        first = True
+        for inp in ["contextual", "name", "entity"]:
+            for pool in ["last", "mean"]:
+                g = h[(h.inp == inp) & (h.pool == pool)].set_index("layer")
+                cells = [m if first else "", f"{inp}, {pool}"] + [f"{g.loc[l, 'within_group_spearman']:.2f} ({g.loc[l, 'r2']:.2f})" for l in layers]
+                rows.append(" & ".join(cells) + r" \\")
+                first = False
+        rows.append(r"\midrule")
+    write("hidden_layers", "\n".join(rows[:-1]) + "\n")
+    # (b) specificity: whose scores do a model's hidden states predict best?
+    mid = {"gemma": 17, "qwen": 14}
+    rows = []
+    for m, tag in own.items():
+        h = pd.read_csv(hp / f"E24_hidden_probe_{tag}.csv")
+        h = h[(h.region == "All") & h.predictor.str.startswith(f"ridge (contextual, mean, layer {mid[tag]}/")].set_index("model")
+        rows.append(" & ".join([f"{m} states"] + [f"{h.loc[t, 'within_group_spearman']:.2f}" for t in MODELS]) + r" \\")
+    e = pd.read_csv(RESULTS / "E14_probe.csv")
+    e = e[(e.region == "All") & (e.predictor == "ridge (contextual)")].set_index("model")
+    rows.append(" & ".join(["OpenAI embeddings"] + [f"{e.loc[t, 'within_group_spearman']:.2f}" for t in MODELS]) + r" \\")
+    write("hidden_specificity", "\n".join(rows) + "\n")
 
 
 def popularity_pageviews():
@@ -450,9 +502,104 @@ def human_judge():
     write("human_judge", "\n".join(lines) + "\n")
 
 
+def multihop():
+    p = RESULTS / "E17_multihop.csv"
+    if not p.exists():
+        return
+    t = pd.read_csv(p)
+    lines = []
+    for _, x in t.iterrows():
+        cells = [str(x.trip_bin), f"{int(x.questions):,}"] + [f"{x[m]:.1f}" for m in MODELS]
+        cells += [f"${x['LATAM-Europe']:+.1f}$", f"${x['LATAM-USA']:+.1f}$"]
+        lines.append(" & ".join(cells) + r" \\")
+    write("multihop", "\n".join(lines) + "\n")
+
+
+def validation_regions():
+    p = RESULTS / "E18_validation_regions_by_region.csv"
+    if not p.exists():
+        return
+    t = pd.read_csv(p)
+    t = t[t.annotators == "all"].set_index("region").loc[REGIONS]
+    lines = [" & ".join([r, str(int(x.judgments)), f"{100 * x.validation_rate:.1f}", f"{100 * x.majority_valid:.1f}",
+                         f"{100 * x.ambiguity:.1f}", f"{100 * x.incorrect:.1f}"]) + r" \\" for r, x in t.iterrows()]
+    write("validation_regions", "\n".join(lines) + "\n")
+
+
+def relevance():
+    p = RESULTS / "E19_relevance_by_region.csv"
+    if not p.exists():
+        return
+    t = pd.read_csv(p).set_index("region").loc[REGIONS]
+    write("relevance_region", "\n".join(
+        " & ".join([r, f"{100 * x.representative_any:.1f}", f"{100 * x.associated_only:.1f}", f"{100 * x.unclear:.1f}",
+                    f"{100 * x.majority_representative:.1f}"]) + r" \\" for r, x in t.iterrows()) + "\n")
+    c = pd.read_csv(RESULTS / "E19_relevance_by_region_category.csv")
+    c = c.pivot(index="category", columns="region", values="representative_any")[REGIONS]
+    order = ["public_figure", "tradition", "dish", "object", "geography", "flora", "fauna"]
+    write("relevance_category", "\n".join(
+        " & ".join([tex(k.replace("_", " "))] + [f"{100 * c.loc[k, r]:.0f}" for r in REGIONS]) + r" \\" for k in order) + "\n")
+
+
+def triplet_structure():
+    p = RESULTS / "E20_triplets_by_region.csv"
+    if not p.exists():
+        return
+    t = pd.read_csv(p).set_index("region").loc[REGIONS]
+    write("triplets_region", "\n".join(
+        " & ".join([r, f"{x.triplets:.1f}", f"{x.relations:.1f}", f"{100 * x.has_link:.1f}"]) + r" \\"
+        for r, x in t.iterrows()) + "\n")
+    q = pd.read_csv(RESULTS / "E20_triplets_question_structure.csv").set_index("dificultad").loc[["easy", "medium", "hard"]]
+    write("triplets_difficulty", "\n".join(
+        " & ".join([lvl, f"{x.n_triplets:.2f}", f"{x.n_relations:.2f}", f"{100 * x.multi_relation:.0f}"]) + r" \\"
+        for lvl, x in q.iterrows()) + "\n")
+    m = pd.read_csv(RESULTS / "E20_triplets_multirelation_performance.csv")
+    write("triplets_multirelation", "\n".join(
+        " & ".join([str(x.relations_bin), f"{int(x.questions):,}", f"{x.LATAM:.1f}", f"{x.Europe:.1f}", f"{x.USA:.1f}",
+                    f"${x['LATAM-Europe']:+.1f}$", f"${x['LATAM-USA']:+.1f}$"]) + r" \\" for _, x in m.iterrows()) + "\n")
+    c = pd.read_csv(RESULTS / "E20_triplets_relations_by_category.csv")
+    write("triplets_relations", "\n".join(
+        f"{tex(x.category.replace('_', ' '))} & \\texttt{{{tex(', '.join(r.split(' (')[0] for r in x.top_relations.split(', ')[:4]))}}} \\\\"
+        for _, x in c.iterrows()) + "\n")
+
+
+def multihop_models():
+    p = RESULTS / "E21_multihop_models.csv"
+    if not p.exists():
+        return
+    t = pd.read_csv(p)
+    order = [m for m in MODELS if m in set(t.model)]
+    t = t.set_index("model").loc[order]
+
+    def cell(x, k):
+        star = "^{*}" if x[f"{k}_p"] < 0.05 else ""
+        return f"${x[k]:+.1f}{star}$"
+    rows = []
+    for m, x in t.iterrows():
+        rows.append(" & ".join([m] + [cell(x, f"{ty}_gap_{r}") for ty in ["single", "multi", "bridge"] for r in ["eur", "usa"]]) + r" \\")
+    n = t.iloc[0]
+    rows.append(r"\midrule")
+    rows.append(" & ".join([r"\emph{Questions}"] + [f"\\multicolumn{{2}}{{c}}{{{int(n[f'n_{ty}']):,}}}" for ty in ["single", "multi", "bridge"]]) + r" \\")
+    write("multihop_models", "\n".join(rows) + "\n")
+
+
+def second_judge():
+    p2, p3 = RESULTS / "E22_second_judge_gaps_model.csv", RESULTS / "E23_open_judge_gaps_model.csv"
+    if not (p2.exists() and p3.exists()):
+        return
+    t2 = pd.read_csv(p2, header=[0, 1], index_col=0)
+    t3 = pd.read_csv(p3, header=[0, 1], index_col=0)
+    cols = {"J1": (t2, "judge1"), "J2": (t2, "judge2"), "J3": (t3, "judge2"), "F1": (t2, "f1")}
+    rows = []
+    for m in [m for m in MODELS if m in t2.index]:
+        cells = [f"${t.loc[m, (j, c)]:+.1f}$" for c in ["LATAM-Europe", "LATAM-USA"] for t, j in cols.values()]
+        rows.append(" & ".join([m] + cells) + r" \\")
+    write("second_judge", "\n".join(rows) + "\n")
+
+
 if __name__ == "__main__":
     for f in [dataset_stats, regional_means, gaps, category_gaps, difficulty, popularity, countries,
               judge_profile, lexical_variants, judge_conditional, difficulty_by_region, recent_model, probe_table, popularity_pageviews, composition_weights, recent_model_category,
-              rejudge_agreement, pageview_correlations, probe_by_region, probe_transfer, validation_tables, human_judge]:
+              rejudge_agreement, pageview_correlations, probe_by_region, probe_transfer, validation_tables, human_judge, multihop, validation_regions, relevance, triplet_structure, multihop_models, second_judge, hidden_probe_tables]:
         f()
     print("wrote", sorted(p.name for p in OUT.glob("*.tex")))

@@ -1,0 +1,211 @@
+item_id,region,country,category,entity,wiki
+0,LATAM,Costa Rica,geography,Junta Política de Hebei-Chahar,https://es.wikipedia.org/wiki/Junta_Pol%C3%ADtica_de_Hebei-Chahar
+1,LATAM,Panamá,geography,Linconia (colonia),https://es.wikipedia.org/wiki/Linconia_%28colonia%29
+2,USA,Nueva Jersey,geography,Municipio de Deptford,https://es.wikipedia.org/wiki/Municipio_de_Deptford
+3,USA,Illinois,geography,Sims (Illinois),https://es.wikipedia.org/wiki/Sims_%28Illinois%29
+4,LATAM,Chile,geography,iquique,https://es.wikipedia.org/wiki/Iquique
+5,USA,Estados Unidos,fauna,Pseudariotus notatus,https://es.wikipedia.org/wiki/Pseudariotus_notatus
+6,Europe,Reino Unido,object,Central Uruguay Railway Company,https://es.wikipedia.org/wiki/Central_Uruguay_Railway_Company
+7,USA,Las Vegas,object,UFC on Fox: Weidman vs. Gastelum,https://es.wikipedia.org/wiki/UFC_on_Fox%3A_Weidman_vs._Gastelum
+8,LATAM,Chile,public_figure,gabriel prieto,https://es.wikipedia.org/wiki/Gabriel_Prieto
+9,Europe,España,fauna,Buthus elongatus,https://es.wikipedia.org/wiki/Buthus_elongatus
+10,LATAM,México,dish,avena fatua,https://es.wikipedia.org/wiki/Avena_fatua
+11,USA,Estados Unidos,fauna,Tyrannochelifer floridanus,https://es.wikipedia.org/wiki/Tyrannochelifer_floridanus
+12,Europe,Francia,flora,Río Paranã (Brasil),https://es.wikipedia.org/wiki/R%C3%ADo_Paran%C3%A3_%28Brasil%29
+13,Europe,Grecia,tradition,Juan Ítalo,https://es.wikipedia.org/wiki/Juan_%C3%8Dtalo
+14,USA,Estados Unidos,tradition,Barry White,https://es.wikipedia.org/wiki/Barry_White
+15,Europe,Italia,fauna,Chthonius ischnocheles stammeri,https://es.wikipedia.org/wiki/Chthonius_ischnocheles_stammeri
+16,LATAM,Argentina,tradition,Juan Fuentes (músico),https://es.wikipedia.org/wiki/Juan_Fuentes_%28m%C3%BAsico%29
+17,Europe,España,dish,Huevos moles,https://es.wikipedia.org/wiki/Huevos_moles
+18,Europe,Francia,flora,Idioma bue,https://es.wikipedia.org/wiki/Idioma_bue
+19,Europe,Italia,tradition,Abadía de Innichen,https://es.wikipedia.org/wiki/Abad%C3%ADa_de_Innichen
+20,Europe,Italia,public_figure,Alessio Casimirri,https://es.wikipedia.org/wiki/Alessio_Casimirri
+21,Europe,España,dish,Libra Sagarra,https://es.wikipedia.org/wiki/Libra_Sagarra
+22,LATAM,Paraguay,geography,Potamotrygon amandae,https://es.wikipedia.org/wiki/Potamotrygon_amandae
+23,Europe,España,object,Astilleros Euskalduna,https://es.wikipedia.org/wiki/Astilleros_Euskalduna
+24,Europe,Francia,flora,Dengue Dengue Dengue!,https://es.wikipedia.org/wiki/Dengue_Dengue_Dengue%21
+25,USA,Estados Unidos,dish,Spencer (cerveza),https://es.wikipedia.org/wiki/Spencer_%28cerveza%29
+26,USA,Texas,geography,Shenandoah (Texas),https://es.wikipedia.org/wiki/Shenandoah_%28Texas%29
+27,USA,Los Ángeles,object,Thunder (película),https://es.wikipedia.org/wiki/Thunder_%28pel%C3%ADcula%29
+28,USA,California,object,La maldición del escorpión de jade,https://es.wikipedia.org/wiki/La_maldici%C3%B3n_del_escorpi%C3%B3n_de_jade
+29,Europe,España,object,Amadeus IT Group,https://es.wikipedia.org/wiki/Amadeus_IT_Group
+30,USA,Florida,geography,North Miami Beach,https://es.wikipedia.org/wiki/North_Miami_Beach
+31,LATAM,Chile,flora,eriosyce robusta,https://es.wikipedia.org/wiki/Eriosyce_robusta
+32,Europe,España,object,Pedro Masaveu Rovira,https://es.wikipedia.org/wiki/Pedro_Masaveu_Rovira
+33,LATAM,México,flora,halimolobos jaegeri,https://es.wikipedia.org/wiki/Halimolobos_jaegeri
+34,USA,Houston,public_figure,Major Jones,https://es.wikipedia.org/wiki/Major_Jones
+35,Europe,España,object,Supercor,https://es.wikipedia.org/wiki/Supercor
+36,Europe,España,fauna,Genêt d'Espagne,https://es.wikipedia.org/wiki/Gen%C3%AAt_d%27Espagne
+37,USA,Estados Unidos,object,First Republic Bank,https://es.wikipedia.org/wiki/First_Republic_Bank
+38,LATAM,Perú,fauna,Pyrinia tarapotata,https://es.wikipedia.org/wiki/Pyrinia_tarapotata
+39,USA,Estados Unidos,dish,Alcapurria,https://es.wikipedia.org/wiki/Alcapurria
+40,LATAM,Chile,public_figure,carlos isamitt,https://es.wikipedia.org/wiki/Carlos_Isamitt
+41,Europe,Francia,fauna,Acrocephalus rimitarae,https://es.wikipedia.org/wiki/Acrocephalus_rimitarae
+42,LATAM,Colombia,public_figure,estatua de shakira,https://es.wikipedia.org/wiki/Estatua_de_Shakira
+43,LATAM,Venezuela,fauna,Astyanax venezuelae,https://es.wikipedia.org/wiki/Astyanax_venezuelae
+44,Europe,Reino Unido,public_figure,Tony Hadley,https://es.wikipedia.org/wiki/Tony_Hadley
+45,USA,Estados Unidos,fauna,Polites sabuleti,https://es.wikipedia.org/wiki/Polites_sabuleti
+46,USA,Texas,geography,Paige (Texas),https://es.wikipedia.org/wiki/Paige_%28Texas%29
+47,Europe,Croacia,geography,Golfo de Carnaro,https://es.wikipedia.org/wiki/Golfo_de_Carnaro
+48,Europe,Portugal,dish,Coxinha,https://es.wikipedia.org/wiki/Coxinha
+49,LATAM,México,dish,nixtamal,https://es.wikipedia.org/wiki/Nixtamal
+50,LATAM,Argentina,tradition,Facundo Saravia,https://es.wikipedia.org/wiki/Facundo_Saravia
+51,Europe,Francia,tradition,SoKo (cantante),https://es.wikipedia.org/wiki/SoKo_%28cantante%29
+52,Europe,Hungría,dish,Túrós csusza,https://es.wikipedia.org/wiki/T%C3%BAr%C3%B3s_csusza
+53,Europe,Reino Unido,public_figure,Julian Tudor Hart,https://es.wikipedia.org/wiki/Julian_Tudor_Hart
+54,LATAM,Bolivia,fauna,Cheracebus lugens,https://es.wikipedia.org/wiki/Cheracebus_lugens
+55,LATAM,México,tradition,Corita,https://es.wikipedia.org/wiki/Corita
+56,LATAM,Argentina,tradition,Josefina Peña,https://es.wikipedia.org/wiki/Josefina_Pe%C3%B1a
+57,LATAM,Colombia,dish,aguardiente,https://es.wikipedia.org/wiki/Aguardiente
+58,USA,Estados Unidos,dish,Pilgrim (sándwich),https://es.wikipedia.org/wiki/Pilgrim_%28s%C3%A1ndwich%29
+59,USA,Estados Unidos,fauna,Cis crinitus,https://es.wikipedia.org/wiki/Cis_crinitus
+60,Europe,Reino Unido,geography,Barrio de Ealing (Londres),https://es.wikipedia.org/wiki/Barrio_de_Ealing_%28Londres%29
+61,USA,Estados Unidos,flora,Quercus virginiana,https://es.wikipedia.org/wiki/Quercus_virginiana
+62,Europe,Italia,public_figure,Gregorio II,https://es.wikipedia.org/wiki/Gregorio_II
+63,Europe,Croacia,geography,Provincia de Zara,https://es.wikipedia.org/wiki/Provincia_de_Zara
+64,LATAM,Colombia,object,tiple,https://es.wikipedia.org/wiki/Tiple
+65,Europe,Rusia,fauna,Lasionycta leucocycla,https://es.wikipedia.org/wiki/Lasionycta_leucocycla
+66,Europe,Croacia,geography,Tkon,https://es.wikipedia.org/wiki/Tkon
+67,Europe,Francia,fauna,Neobisium bernardi bernardi,https://es.wikipedia.org/wiki/Neobisium_bernardi_bernardi
+68,LATAM,Argentina,tradition,carlos montbrun ocampo,https://es.wikipedia.org/wiki/Carlos_Montbrun_Ocampo
+69,USA,Illinois,geography,Bowen (Illinois),https://es.wikipedia.org/wiki/Bowen_%28Illinois%29
+70,LATAM,Bolivia,public_figure,juan claudio lechín,https://es.wikipedia.org/wiki/Juan_Claudio_Lech%C3%ADn
+71,LATAM,Venezuela,fauna,Pyrrhura rhodocephala,https://es.wikipedia.org/wiki/Pyrrhura_rhodocephala
+72,LATAM,Colombia,public_figure,inevitable (canción de shakira),https://es.wikipedia.org/wiki/inevitable_%28canci%C3%B3n_de_shakira%29
+73,USA,Estados Unidos,dish,Balisto,https://es.wikipedia.org/wiki/Balisto
+74,Europe,Francia,tradition,Martinez de Pasqually,https://es.wikipedia.org/wiki/Martinez_de_Pasqually
+75,LATAM,Chile,public_figure,tom urrejola díaz,https://es.wikipedia.org/wiki/Tom_Urrejola_D%C3%ADaz
+76,USA,San Francisco,public_figure,Penny Halliwell,https://es.wikipedia.org/wiki/Penny_Halliwell
+77,Europe,España,dish,Longaniza de Graus,https://es.wikipedia.org/wiki/Longaniza_de_Graus
+78,LATAM,Colombia,fauna,Dekeyseria amazonica,https://es.wikipedia.org/wiki/Dekeyseria_amazonica
+79,Europe,Islandia,flora,Pedicularis flammea,https://es.wikipedia.org/wiki/Pedicularis_flammea
+80,Europe,España,fauna,Acanthocreagris granulata robusta,https://es.wikipedia.org/wiki/Acanthocreagris_granulata_robusta
+81,USA,Estados Unidos,dish,Pastel de ángel,https://es.wikipedia.org/wiki/Pastel_de_%C3%A1ngel
+82,USA,Las Vegas,object,UFC Fight Night: Silva vs. Irvin,https://es.wikipedia.org/wiki/UFC_Fight_Night%3A_Silva_vs._Irvin
+83,Europe,Francia,flora,Arboretum de l'Étoile des Andaines,https://es.wikipedia.org/wiki/Arboretum_de_l%27%C3%89toile_des_Andaines
+84,USA,Estados Unidos,object,Freescale,https://es.wikipedia.org/wiki/Freescale
+85,Europe,Francia,flora,Corydoras sterbai,https://es.wikipedia.org/wiki/Corydoras_sterbai
+86,Europe,España,object,Sniace,https://es.wikipedia.org/wiki/Sniace
+87,LATAM,Argentina,dish,chupilca,https://es.wikipedia.org/wiki/Chupilca
+88,USA,Estados Unidos,dish,Barco bananero,https://es.wikipedia.org/wiki/Barco_bananero
+89,USA,Estados Unidos,fauna,Spastonyx macswaini,https://es.wikipedia.org/wiki/Spastonyx_macswaini
+90,Europe,España,dish,Tarta de Mondoñedo,https://es.wikipedia.org/wiki/Tarta_de_Mondo%C3%B1edo
+91,USA,Estados Unidos,flora,Chionanthus virginicus,https://es.wikipedia.org/wiki/Chionanthus_virginicus
+92,LATAM,Chile,public_figure,gemma contreras,https://es.wikipedia.org/wiki/Gemma_Contreras
+93,USA,Estados Unidos,tradition,David Proval,https://es.wikipedia.org/wiki/David_Proval
+94,Europe,Francia,dish,Daube,https://es.wikipedia.org/wiki/Daube
+95,LATAM,México,dish,ajillo,https://es.wikipedia.org/wiki/Ajillo
+96,Europe,Francia,flora,Val sans retour,https://es.wikipedia.org/wiki/Val_sans_retour
+97,USA,Illinois,geography,Niantic (Illinois),https://es.wikipedia.org/wiki/Niantic_%28Illinois%29
+98,LATAM,Guatemala,flora,Acanthocereus chiapensis,https://es.wikipedia.org/wiki/Acanthocereus_chiapensis
+99,USA,Estados Unidos,flora,Quercus bicolor,https://es.wikipedia.org/wiki/Quercus_bicolor
+100,LATAM,México,dish,epazote,https://es.wikipedia.org/wiki/Dysphania_ambrosioides
+101,LATAM,Chile,public_figure,nicolás saavedra,https://es.wikipedia.org/wiki/Nicol%C3%A1s_Saavedra
+102,Europe,España,fauna,Porcellio baeticensis,https://es.wikipedia.org/wiki/Porcellio_baeticensis
+103,LATAM,Bolivia,fauna,arapaima,https://es.wikipedia.org/wiki/Arapaima
+104,USA,Estados Unidos,dish,Fannie Merritt Farmer,https://es.wikipedia.org/wiki/Fannie_Merritt_Farmer
+105,USA,Estados Unidos,tradition,Thomas Jonathan Jackson Altizer,https://es.wikipedia.org/wiki/Thomas_Jonathan_Jackson_Altizer
+106,USA,Boston,public_figure,Charles Pickering,https://es.wikipedia.org/wiki/Charles_Pickering
+107,USA,Estados Unidos,tradition,Henry Fonda,https://es.wikipedia.org/wiki/Henry_Fonda
+108,LATAM,Chile,flora,cyttaria espinosae,https://es.wikipedia.org/wiki/Cyttaria_espinosae
+109,Europe,Francia,flora,Thamnophilus cryptoleucus,https://es.wikipedia.org/wiki/Thamnophilus_cryptoleucus
+110,Europe,España,object,Hispasat,https://es.wikipedia.org/wiki/Hispasat
+111,LATAM,Costa Rica,geography,Informe Franck,https://es.wikipedia.org/wiki/Informe_Franck
+112,LATAM,Chile,flora,senna candolleana,https://es.wikipedia.org/wiki/Senna_candolleana
+113,LATAM,Argentina,object,ia-63 pampa,https://es.wikipedia.org/wiki/ia-63_pampa
+114,USA,Illinois,geography,Municipio de Germanville,https://es.wikipedia.org/wiki/Municipio_de_Germanville
+115,LATAM,Colombia,flora,myrmecophila tibicinis,https://es.wikipedia.org/wiki/Myrmecophila_tibicinis
+116,Europe,Reino Unido,public_figure,Johnny Speight,https://es.wikipedia.org/wiki/Johnny_Speight
+117,USA,Seattle,public_figure,Alice Ball,https://es.wikipedia.org/wiki/Alice_Ball
+118,Europe,España,flora,Dicheranthus,https://es.wikipedia.org/wiki/Dicheranthus
+119,USA,San Francisco,public_figure,Marc Benioff,https://es.wikipedia.org/wiki/Marc_Benioff
+120,LATAM,Colombia,fauna,Patia cordillera,https://es.wikipedia.org/wiki/Patia_cordillera
+121,Europe,Reino Unido,public_figure,Gustav Holst,https://es.wikipedia.org/wiki/Gustav_Holst
+122,LATAM,Guatemala,geography,Copa Centroamericana Campeones de Copa 1991,https://es.wikipedia.org/wiki/Copa_Centroamericana_Campeones_de_Copa_1991
+123,LATAM,Perú,fauna,Nephelornis oneilli,https://es.wikipedia.org/wiki/Nephelornis_oneilli
+124,LATAM,Cuba,geography,Jean-Baptiste Charles Bouvet de Lozier,https://es.wikipedia.org/wiki/Jean-Baptiste_Charles_Bouvet_de_Lozier
+125,Europe,Grecia,tradition,Palas (gigante),https://es.wikipedia.org/wiki/Palas_%28gigante%29
+126,LATAM,Colombia,tradition,amo jesús de timbío,https://es.wikipedia.org/wiki/Amo_Jes%C3%BAs_de_Timb%C3%ADo
+127,USA,Miami,public_figure,Brianna McNeal,https://es.wikipedia.org/wiki/Brianna_McNeal
+128,Europe,Francia,fauna,Hyalinobatrachium kawense,https://es.wikipedia.org/wiki/Hyalinobatrachium_kawense
+129,LATAM,Cuba,geography,Groton (Connecticut),https://es.wikipedia.org/wiki/Groton_%28Connecticut%29
+130,Europe,España,dish,Gastronomía de la provincia de Pontevedra,https://es.wikipedia.org/wiki/Gastronom%C3%ADa_de_la_provincia_de_Pontevedra
+131,LATAM,México,flora,echeveria cante,https://es.wikipedia.org/wiki/Echeveria_cante
+132,LATAM,Venezuela,object,estefany oliveira (actriz),https://es.wikipedia.org/wiki/Estefany_Oliveira_%28actriz%29
+133,USA,Estados Unidos,flora,Cyrtopodium punctatum,https://es.wikipedia.org/wiki/Cyrtopodium_punctatum
+134,USA,Los Ángeles,public_figure,Sean Quinn,https://es.wikipedia.org/wiki/Sean_Quinn
+135,USA,Estados Unidos,fauna,Metophthalmus sandersoni,https://es.wikipedia.org/wiki/Metophthalmus_sandersoni
+136,USA,Estados Unidos,flora,Echinocereus davisii,https://es.wikipedia.org/wiki/Echinocereus_davisii
+137,Europe,España,object,Liberbank,https://es.wikipedia.org/wiki/Liberbank
+138,LATAM,México,tradition,Edén Muñoz,https://es.wikipedia.org/wiki/Ed%C3%A9n_Mu%C3%B1oz
+139,Europe,Serbia,tradition,Matija Nenadović,https://es.wikipedia.org/wiki/Matija_Nenadovi%C4%87
+140,LATAM,Chile,public_figure,andrés pizarro,https://es.wikipedia.org/wiki/Andr%C3%A9s_Pizarro
+141,USA,Chicago,public_figure,Jerian Grant,https://es.wikipedia.org/wiki/Jerian_Grant
+142,LATAM,Costa Rica,geography,Cabillus lacertops,https://es.wikipedia.org/wiki/Cabillus_lacertops
+143,LATAM,Uruguay,dish,Vino de Uruguay,https://es.wikipedia.org/wiki/Vino_de_Uruguay
+144,USA,Estados Unidos,flora,Atriplex coronata,https://es.wikipedia.org/wiki/Atriplex_coronata
+145,LATAM,México,object,indumentaria en la nueva españa,https://es.wikipedia.org/wiki/Indumentaria_en_la_Nueva_Espa%C3%B1a
+146,LATAM,Honduras,flora,Quercus sapotifolia,https://es.wikipedia.org/wiki/Quercus_sapotifolia
+147,Europe,España,tradition,Juan Duarte Martín,https://es.wikipedia.org/wiki/Juan_Duarte_Mart%C3%ADn
+148,USA,Nueva York,object,Capers Jones,https://es.wikipedia.org/wiki/Capers_Jones
+149,LATAM,Uruguay,tradition,Dionisio Díaz,https://es.wikipedia.org/wiki/Dionisio_D%C3%ADaz
+150,USA,Estados Unidos,fauna,Pseudogarypus hesperus,https://es.wikipedia.org/wiki/Pseudogarypus_hesperus
+151,Europe,Alemania,public_figure,Paul Falkenberg,https://es.wikipedia.org/wiki/Paul_Falkenberg
+152,USA,Nueva Jersey,public_figure,Elizabeth Yu,https://es.wikipedia.org/wiki/Elizabeth_Yu
+153,Europe,Francia,object,Air Inter,https://es.wikipedia.org/wiki/Air_Inter
+154,LATAM,Uruguay,tradition,carnaval en uruguay,https://es.wikipedia.org/wiki/Carnaval_en_Uruguay
+155,LATAM,Perú,object,incrustado de la plata,https://es.wikipedia.org/wiki/Incrustado_de_la_plata
+156,LATAM,Venezuela,object,laura gonçalves,https://es.wikipedia.org/wiki/Laura_Gon%C3%A7alves
+157,Europe,España,geography,Provincia marítima de Villagarcía,https://es.wikipedia.org/wiki/Provincia_mar%C3%ADtima_de_Villagarc%C3%ADa
+158,USA,Estados Unidos,fauna,Cyprinella pyrrhomelas,https://es.wikipedia.org/wiki/Cyprinella_pyrrhomelas
+159,USA,Estados Unidos,dish,Lynja,https://es.wikipedia.org/wiki/Lynja
+160,LATAM,México,object,Alfarería lenca de La Campa,https://es.wikipedia.org/wiki/Alfarer%C3%ADa_lenca_de_La_Campa
+161,USA,Estados Unidos,object,Turn 10 Studios,https://es.wikipedia.org/wiki/Turn_10_Studios
+162,USA,Estados Unidos,flora,Campus del Ventura County Community College District,https://es.wikipedia.org/wiki/Campus_del_Ventura_County_Community_College_District
+163,USA,Estados Unidos,fauna,Novohorus obscurus,https://es.wikipedia.org/wiki/Novohorus_obscurus
+164,LATAM,Panamá,fauna,Amorbia rectilineana,https://es.wikipedia.org/wiki/Amorbia_rectilineana
+165,Europe,Italia,geography,Asiria (provincia romana),https://es.wikipedia.org/wiki/Asiria_%28provincia_romana%29
+166,LATAM,Bolivia,fauna,Acestrocephalus pallidus,https://es.wikipedia.org/wiki/Acestrocephalus_pallidus
+167,USA,California,flora,Quercus john-tuckeri,https://es.wikipedia.org/wiki/Quercus_john-tuckeri
+168,USA,Seattle,object,Vuelo 771 de Gulf Air,https://es.wikipedia.org/wiki/Vuelo_771_de_Gulf_Air
+169,LATAM,Chile,flora,alstroemeria diluta,https://es.wikipedia.org/wiki/Alstroemeria_diluta
+170,LATAM,Colombia,geography,páramo de ocetá,https://es.wikipedia.org/wiki/P%C3%A1ramo_de_Ocet%C3%A1
+171,USA,Estados Unidos,dish,Big Mac,https://es.wikipedia.org/wiki/Big_Mac
+172,USA,Estados Unidos,dish,Martes de tacos,https://es.wikipedia.org/wiki/Martes_de_tacos
+173,LATAM,Bolivia,public_figure,gaby vallejo canedo,https://es.wikipedia.org/wiki/Gaby_Vallejo_Canedo
+174,USA,Estados Unidos,tradition,Festival de Cine de Telluride,https://es.wikipedia.org/wiki/Festival_de_Cine_de_Telluride
+175,LATAM,Argentina,flora,hamadryas argentea,https://es.wikipedia.org/wiki/Hamadryas_argentea
+176,Europe,España,tradition,Kilometroak,https://es.wikipedia.org/wiki/Kilometroak
+177,Europe,Grecia,geography,Anfípolis,https://es.wikipedia.org/wiki/Anf%C3%ADpolis
+178,LATAM,Venezuela,object,gabriela fernández,https://es.wikipedia.org/wiki/Gabriela_Fern%C3%A1ndez
+179,LATAM,Venezuela,object,marjorie de sousa,https://es.wikipedia.org/wiki/Marjorie_de_Sousa
+180,Europe,España,tradition,Cipotegato,https://es.wikipedia.org/wiki/Cipotegato
+181,Europe,Francia,flora,Masato,https://es.wikipedia.org/wiki/Masato
+182,USA,Estados Unidos,tradition,Jodie Foster,https://es.wikipedia.org/wiki/Jodie_Foster
+183,LATAM,Uruguay,dish,Fainá,https://es.wikipedia.org/wiki/Fain%C3%A1
+184,Europe,Grecia,dish,Lukaniko,https://es.wikipedia.org/wiki/Lukaniko
+185,USA,Estados Unidos,fauna,Araneus bonsallae,https://es.wikipedia.org/wiki/Araneus_bonsallae
+186,USA,Estados Unidos,tradition,Lynn Margulis,https://es.wikipedia.org/wiki/Lynn_Margulis
+187,Europe,Islandia,geography,Laugavegur (Reikiavik),https://es.wikipedia.org/wiki/Laugavegur_%28Reikiavik%29
+188,LATAM,Argentina,object,chiripá (prenda),https://es.wikipedia.org/wiki/Chirip%C3%A1_%28prenda%29
+189,Europe,España,dish,Raya en pimentón,https://es.wikipedia.org/wiki/Raya_en_piment%C3%B3n
+190,LATAM,Costa Rica,dish,majarete,https://es.wikipedia.org/wiki/Majarete
+191,USA,Texas,public_figure,Rashee Rice,https://es.wikipedia.org/wiki/Rashee_Rice
+192,Europe,Italia,public_figure,Ettore Pinelli,https://es.wikipedia.org/wiki/Ettore_Pinelli
+193,LATAM,Venezuela,tradition,Adilia Castillo,https://es.wikipedia.org/wiki/Adilia_Castillo
+194,Europe,España,fauna,Amadotrogus patruelis,https://es.wikipedia.org/wiki/Amadotrogus_patruelis
+195,Europe,Portugal,geography,Sierra de Rates,https://es.wikipedia.org/wiki/Sierra_de_Rates
+196,USA,Florida,tradition,Ángel Barajas,https://es.wikipedia.org/wiki/%C3%81ngel_Barajas
+197,USA,Los Ángeles,object,The World Is Not Enough,https://es.wikipedia.org/wiki/The_World_Is_Not_Enough
+198,USA,Estados Unidos,flora,Zanthoxylum clava-herculis,https://es.wikipedia.org/wiki/Zanthoxylum_clava-herculis
+199,Europe,Francia,public_figure,Jacqueline Joubert,https://es.wikipedia.org/wiki/Jacqueline_Joubert
+200,Europe,Alemania,geography,Guerra de los Ducados,https://es.wikipedia.org/wiki/Guerra_de_los_Ducados
+201,USA,California,geography,Escalón (California),https://es.wikipedia.org/wiki/Escal%C3%B3n_%28California%29
+202,Europe,Alemania,public_figure,John Grenville,https://es.wikipedia.org/wiki/John_Grenville
+203,USA,Estados Unidos,flora,Andropogon virginicus,https://es.wikipedia.org/wiki/Andropogon_virginicus
+204,Europe,Reino Unido,object,Big Finish Productions,https://es.wikipedia.org/wiki/Big_Finish_Productions
+205,USA,Nueva York,tradition,Basílica del Sagrado Corazón de Jesús (Siracusa),https://es.wikipedia.org/wiki/Bas%C3%ADlica_del_Sagrado_Coraz%C3%B3n_de_Jes%C3%BAs_%28Syracuse%29
+206,USA,Estados Unidos,tradition,Tiroteo en el Museo Conmemorativo del Holocausto en Washington D. C.,https://es.wikipedia.org/wiki/Tiroteo_en_el_Museo_Conmemorativo_del_Holocausto_en_Washington_D._C.
+207,USA,Florida,geography,Satellite Beach,https://es.wikipedia.org/wiki/Satellite_Beach
+208,LATAM,Chile,dish,aulacomya atra,https://es.wikipedia.org/wiki/Aulacomya_atra
+209,Europe,Francia,tradition,Haïm Korsia,https://es.wikipedia.org/wiki/Ha%C3%AFm_Korsia

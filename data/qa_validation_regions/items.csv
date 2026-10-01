@@ -1,0 +1,151 @@
+item_id,region,country,category,difficulty,entity,question,answer
+0,LATAM,Chile,public_figure,easy,faride zerán,¿Cuál es el nombre completo de Faride Zerán?,Faride Zerán Chelech
+1,USA,Estados Unidos,object,hard,First Republic Bank,¿Qué relación tenía First Republic Bank con la FDIC antes de su cierre y venta a JPMorgan Chase?,se había cerrado y vendido a JPMorgan Chase
+2,Europe,Italia,public_figure,easy,Alessio Casimirri,¿Dónde nació Alessio Casimirri?,Roma
+3,Europe,Francia,flora,easy,Masato,¿Qué es el masato?,El masato es una bebida fermentada a base de maíz.
+4,LATAM,Bolivia,fauna,medium,Gnomidolon gemuseusi,¿En qué tribu está categorizada Gnomidolon gemuseusi?,la tribu Hexoplonini
+5,USA,Estados Unidos,fauna,hard,Leptipsius striatus,¿Qué familia pertenece Leptipsius striatus y qué características distintivas tiene en su hábitat?,Pertenece a la familia Monotomidae.
+6,LATAM,Colombia,object,hard,marimba,¿Qué países han declarado a la marimba como patrimonio cultural inmaterial de la humanidad?,Colombia y Ecuador
+7,Europe,Italia,geography,easy,Asiria (provincia romana),¿Qué era la provincia romana de Asiria?,una de las tres provincias creadas por el emperador romano Trajano en 116 d. C.
+8,USA,Colorado,geography,hard,St. Mary's (Colorado),"¿Qué porcentaje de la población de St. Mary's estaba compuesta por blancos según el censo de 2010, y cuántos habitantes tenía en total?",97.53% y 283 habitantes
+9,LATAM,Chile,object,medium,espuela chilena,¿Para qué se utiliza la espuela chilena durante las labores granjeras?,Se usa para estimular a un caballo chileno durante sus labores granjeras.
+10,Europe,Islandia,geography,hard,Laugavegur (Reikiavik),¿Qué significa el nombre Laugavegur y a qué lugar solía conducir?,"""camino de lavado"" y a los manantiales de Laugardalur"
+11,Europe,Grecia,fauna,hard,Chthonius thessalus,¿A qué familia pertenece Chthonius thessalus y qué características distintivas tiene dentro de su orden?,Pertenece a la familia Chthoniidae y es un arácnido del orden Pseudoscorpionida.
+12,LATAM,Chile,public_figure,easy,víctor huerta gonzález,¿Quién es Víctor Huerta González?,un director chileno de telenovelas
+13,Europe,Islandia,flora,hard,Diapensia lapponica,¿Quién describió Diapensia lapponica y en qué obra fue publicado?,"Carlos Linneo, Species Plantarum 1: 141. 1753"
+14,Europe,Italia,fauna,medium,Chthonius ischnocheles stammeri,¿Dónde se encuentra Chthonius ischnocheles stammeri?,Se encuentra en Italia.
+15,USA,Estados Unidos,tradition,hard,Festival de Cine de Traverse City,¿Quién creó el Festival de Cine de Traverse City y en qué año se estableció?,Michael Moore en 2005
+16,Europe,España,object,easy,Amadeus IT Group,¿Qué es Amadeus IT Group?,una empresa proveedora de soluciones tecnológicas para la industria de los viajes
+17,USA,Estados Unidos,flora,hard,Quercus virginiana,¿Qué características distintivas tiene la corteza de Quercus virginiana y con qué otras especies hibrida?,corteza rugosa y agrietada; hibrida con Q. fusiformis y Q. germinata
+18,LATAM,Argentina,dish,medium,bagna cauda,¿Qué ingredientes básicos tiene la bagna cauda?,"una base de aceite de oliva, dientes de ajos triturados y pasta de anchoas saladas"
+19,Europe,Islandia,geography,easy,Laugavegur (Reikiavik),¿Qué es Laugavegur en Reikiavik?,la principal arteria comercial del centro de Reikiavik
+20,Europe,España,dish,easy,Huevos moles,¿Qué es los huevos moles?,una preparación dulce a base de huevos muy típica de las provincias de Granada y Jaén
+21,Europe,España,flora,medium,Dicheranthus,¿Dónde se encuentra Dicheranthus?,las Islas Canarias
+22,LATAM,Colombia,dish,hard,pasteles,¿Qué ingredientes se utilizan en los pasteles de la República Dominicana y cómo se preparan?,"se preparan con una masa de plátano y dos tubérculos, o de tres tubérculos (guineos verdes, yautías, plátanos verdes o maduros, auyamas y ñames) y se rellena con carne molida, o de pollo salteada con, ajo, cebolla roja, pimiento morrón y pasta de tomate."
+23,USA,Estados Unidos,object,hard,Red Storm Entertainment,¿Qué serie de videojuegos fue creada por Red Storm Entertainment y se consolidó comercialmente en 1998?,la serie Tom Clancy's Rainbow Six
+24,USA,Estados Unidos,flora,medium,Quercus virginiana,¿En qué época florece Quercus virginiana?,en primavera
+25,USA,Estados Unidos,tradition,medium,Barry White,¿Cuántos álbumes de estudio tuvo Barry White?,20 álbumes de estudio
+26,LATAM,Perú,flora,medium,Cleistocactus pungens,¿Dónde es endémica Cleistocactus pungens?,Perú
+27,USA,Estados Unidos,flora,easy,Campus del Ventura County Community College District,¿Qué tipo de entidad es el Campus del Ventura County Community College District?,un arboreto-jardín botánico de unos 112 acres
+28,Europe,España,dish,easy,Gastronomía de la provincia de Pontevedra,¿Qué plato típico de la provincia de Pontevedra se elabora con grelos?,el lacón con grelos
+29,Europe,Reino Unido,public_figure,hard,Johnny Speight,¿Qué personaje controvertido creó Johnny Speight y que se convirtió en uno de los más memorables de la televisión británica?,Alf Garnett
+30,LATAM,Bolivia,flora,easy,Echinopsis ayopayana,¿Qué tipo de planta es Echinopsis ayopayana?,una especie de planta suculenta
+31,Europe,España,dish,medium,Pescado frito,¿Cómo se elabora el pescado frito?,rebozando el pescado en harina de almorta o trigo
+32,USA,Estados Unidos,dish,medium,Balisto,¿Quién comercializa Balisto?,la multinacional estadounidense Mars Incorporated
+33,USA,Nueva Jersey,geography,easy,2.º distrito congresional de Nueva Jersey,¿Qué es el 2.º distrito congresional de Nueva Jersey?,un distrito congresional que elige a un Representante para la Cámara de Representantes de los Estados Unidos por el estado de Nueva Jersey
+34,LATAM,Argentina,tradition,easy,guillermo barrena guzmán,¿Dónde nació Guillermo Barrena Guzmán?,La Plata
+35,LATAM,Chile,public_figure,hard,teodoro fernández larrañaga,¿Qué premio recibió Teodoro Fernández Larrañaga en 2014 y en qué ámbito se destaca?,Premio Nacional de Arquitectura
+36,Europe,España,object,medium,Pedro Masaveu Rovira,¿Qué compañía fundó Pedro Masaveu Rovira que se convirtió en el núcleo del Grupo Masaveu?,la compañía «Pedro Masaveu y Cía»
+37,LATAM,México,flora,hard,corynopuntia bulbispina,¿Cuáles son las características distintivas de Corynopuntia bulbispina y en qué tipo de hábitat se encuentra?,tiene crecimiento subarbustivo y habita matorrales xerófilos y abanicos aluviales
+38,USA,Estados Unidos,dish,hard,Balisto,¿En qué países está disponible Balisto?,"Austria, Alemania, Bélgica, Francia, Irlanda, Luxemburgo, Países Bajos y Suiza"
+39,Europe,Francia,flora,hard,Pterophyllum scalare,¿Qué significa el nombre Pterophyllum scalare y quién lo describió?,'hoja con alas' y fue descrito por Johann Jakob Heckel en 1840
+40,Europe,Reino Unido,public_figure,medium,Johnny Speight,¿Qué serie famosa escribió Johnny Speight que se estrenó en 1965?,Till Death Us Do Part
+41,USA,Estados Unidos,fauna,medium,Spastonyx macswaini,¿Dónde se encuentra Spastonyx macswaini?,Habita en Arizona (Estados Unidos).
+42,Europe,España,dish,hard,Gastronomía de la provincia de Pontevedra,¿Qué plato típico de la provincia de Pontevedra se consume en las fiestas populares y está elaborado con mariscos de la ría?,el pulpo a la gallega
+43,USA,Estados Unidos,tradition,easy,Festival de Cine de Telluride,¿Qué es el Festival de Cine de Telluride?,un festival de cine anual
+44,Europe,España,fauna,hard,Pottoka,¿Qué usos históricos se les ha dado a los Pottokas en los caseríos?,"como tractores de los vagones en las minas, para las labores de labranza y tiro en los caseríos, limpieza de argomas y pastos de montaña, en las eras para la trilla de los cereales"
+45,LATAM,Colombia,object,hard,Anton Ždanovič,¿En qué país comenzó Anton Ždanovič su trayectoria profesional y en qué orquesta fue percusionista?,República Checa; orquesta del Gran Teatro Académico Nacional de Ópera y Ballet de Bielorrusia
+46,LATAM,Colombia,fauna,hard,anolis maculigula,¿Por qué se le dio el nombre de su especie al anolis de rueda y qué amenaza enfrenta?,se le dio el nombre de su especie en referencia a su garganta muy manchada y se encuentra amenazado por la perdida de hábitat
+47,Europe,Francia,flora,easy,Idioma bue,¿Qué tipo de lengua es el idioma bue?,una lengua amerindia
+48,USA,Estados Unidos,flora,hard,Atriplex coronata,¿Qué características distintivas tiene Atriplex coronata en cuanto a su hábitat y morfología?,crece en zonas de salinas y suelos alcalinos en el Valle Central y tiene tallos erectos o inclinados de color paja.
+49,Europe,Francia,flora,hard,Isla Chinería,¿Qué proceso sufrió la isla Chinería durante la década de 1970 y qué ocurrió con este proceso con el tiempo?,un proceso de fragmentación fluvial que fue revertido con el tiempo
+50,LATAM,Argentina,flora,hard,gallardoa,¿En qué revista y año fue publicado el género gallardoa?,En Physis. Revista de la Sociedad Argentina de Ciencias Naturales en el año 1916.
+51,USA,Estados Unidos,object,medium,Trek Bicycle Corporation,¿Cuántos comerciales tiene Trek Bicycle Corporation en Norteamérica?,1.700 comerciales en Norteamérica
+52,Europe,Francia,tradition,hard,Juana de Valois (1464-1505),¿Qué título recibió Juana de Valois en 1499 y qué congregación fundó para ayudar a los enfermos?,Fue creada duquesa de Berry y fundó una congregación femenina.
+53,USA,Arizona,geography,hard,San Simón (Arizona),¿Cuál es la población y la densidad poblacional de San Simón según el censo de 2010?,"tenía una población de 165 habitantes y una densidad poblacional de 91,01 personas por km²"
+54,LATAM,Venezuela,object,easy,marjorie de sousa,¿Cuál es el nombre completo de Marjorie de Sousa?,Marjorie Lissette de Sousa Rivas
+55,Europe,Italia,dish,medium,Gelato,¿Quién fue el creador del gelato en su forma moderna?,Francesco Procopio dei Coltelli
+56,USA,Estados Unidos,fauna,hard,Pseudariotus notatus,¿En qué regiones se encuentra Pseudariotus notatus además del sureste de Estados Unidos?,los neotrópicos
+57,Europe,Reino Unido,public_figure,easy,Johnny Speight,¿Quién fue Johnny Speight?,un guionista televisivo de nacionalidad británica
+58,Europe,España,dish,hard,Huevos moles,¿Cómo se elabora el huevo chimbo en Perú y qué ingredientes se utilizan?,"a partir de yemas de huevo y chuño, y se baña en almíbar a base de especias y pisco"
+59,LATAM,Chile,public_figure,medium,mauricio pešutić,¿En qué lugar nació Mauricio Pešutić?,Punta Arenas
+60,LATAM,Cuba,geography,medium,Cerro de los Portales,¿En qué provincia se ubica el Cerro de los Portales?,la provincia de Holguín
+61,Europe,Serbia,tradition,easy,Matija Nenadović,¿Quién fue Matija Nenadović?,"Matija Nenadović fue un arcipreste, escritor y político serbio."
+62,LATAM,Costa Rica,geography,easy,Temporadas de tifones del Pacífico antes de 1850,¿Qué tipo de fenómenos meteorológicos se documentan en las temporadas de tifones del Pacífico antes de 1850?,Tifones.
+63,Europe,Italia,tradition,hard,Abadía de Innichen,¿Quién erigió la Abadía de Innichen y con qué propósito?,por mandato del duque de Baviera Tasilón III con el objeto de evangelizar a los eslavos del sur paganos
+64,Europe,España,object,easy,Pedro Masaveu Rovira,¿En qué año nació Pedro Masaveu Rovira?,1828
+65,USA,Estados Unidos,fauna,easy,Spastonyx macswaini,¿Qué tipo de especie es Spastonyx macswaini?,Es una especie de coleóptero de la familia Meloidae.
+66,USA,Estados Unidos,object,hard,The Sporting News,¿Qué cambios experimentó The Sporting News en 2008 en relación a su frecuencia de publicación y su edición en línea?,cambió a una publicación bisemanal en 2008 y fue lanzada la edición en línea llamada Sporting News Today en 2008
+67,Europe,Italia,geography,hard,Asiria (provincia romana),¿Qué dificultades enfrentó la provincia romana de Asiria desde su creación hasta su evacuación?,estuvo plagada de dificultades desde el principio.
+68,LATAM,Argentina,fauna,hard,Liolaemus cuyumhue,¿Por qué fue categorizada Liolaemus cuyumhue como una especie en “peligro crítico de extinción” (CR) en el año 2018?,"debido a que compañías de explotación de petróleo y gas natural realizan en su pequeña área de distribución geográfica, las operaciones más intensivas de la Argentina, modificando los hábitats adecuados para esta especie."
+69,USA,Estados Unidos,object,medium,Fisker Automotive,¿En qué año se presentó el Fisker Karma en el Salón del Automóvil de Detroit?,en el Salón del Automóvil de Detroit de 2008
+70,Europe,España,dish,medium,Ternera de Aliste,¿De dónde procede la ternera de Aliste?,la comarca de Aliste
+71,USA,Estados Unidos,dish,easy,Martes de tacos,¿Qué es el Martes de tacos?,una costumbre
+72,USA,Estados Unidos,tradition,easy,Barry White,¿Cuál es el nombre artístico de Barrence Eugene Carter?,Barry White
+73,Europe,Portugal,fauna,hard,Actinella fausta,¿Por qué se encuentra amenazada de extinción Actinella fausta?,por la pérdida de su hábitat natural
+74,LATAM,Chile,object,easy,espuela chilena,¿Qué es la espuela chilena?,La espuela chilena es usada por los campesinos huasos en Chile.
+75,USA,Estados Unidos,fauna,medium,Novohorus obscurus,¿Dónde se encuentra Novohorus obscurus?,Florida (Estados Unidos)
+76,LATAM,Perú,dish,hard,ceviche peruano,¿Cuál es la cultura que se menciona como origen del ceviche peruano y qué ingredientes se añadieron con la presencia hispánica?,Se originó en la cultura Tallán y se añadieron la naranja agria y la cebolla.
+77,Europe,Grecia,tradition,easy,Juan Ítalo,¿Dónde nació Juan Ítalo?,Calabria
+78,LATAM,Costa Rica,tradition,hard,sibú,¿Cuáles son algunos de los atributos de Sibú según las creencias de los bribris y cabécares?,"Es omnipresente, eterno, todopoderoso y omnisciente."
+79,USA,Estados Unidos,tradition,easy,Jodie Foster,¿Cuál es el nombre completo de Jodie Foster?,Alicia Christian Foster
+80,LATAM,Bolivia,tradition,easy,carlos palenque,¿Cuál es el nombre completo de Carlos Palenque?,Carlos Palenque Avilés
+81,USA,San Francisco,public_figure,hard,Penny Halliwell,¿Qué poder poseía Penny Halliwell y a quiénes se lo heredó?,"la telequinesis; a sus nietas Prue y Paige, y posteriormente a sus bisnietos Wyatt y Chris Halliwell"
+82,LATAM,Bolivia,public_figure,medium,milton llanos,¿En qué año comenzó Milton Llanos su carrera en el ámbito audiovisual?,1989
+83,USA,Texas,geography,hard,Forsan (Texas),¿Cuál es la población de Forsan según el censo de 2010 y qué porcentaje de esta población era hispano o latino?,una población de 210 habitantes; el 17.62% eran hispanos o latinos de cualquier raza
+84,USA,Estados Unidos,dish,medium,Lynja,¿Cuántos suscriptores acumulaba Lynja en YouTube a fecha de 15 de enero de 2024?,más de 10 millones de suscriptores en YouTube
+85,USA,Estados Unidos,dish,hard,Martes de tacos,"¿Qué cadena de restaurantes registró el término ""Taco Tuesday"" y en qué consiste esta costumbre?",la cadena de restaurantes Taco John’s; consiste en comer en general comida mexicana y en particular tacos los martes
+86,USA,Estados Unidos,object,easy,Fisker Automotive,¿Cuál fue el único producto de Fisker Automotive?,el único producto Fisker Karma
+87,LATAM,México,object,medium,chililitli,¿De qué material está hecho el chililitli?,un disco de cobre
+88,Europe,Reino Unido,object,hard,Central Uruguay Railway Company,¿Qué ocurrió con la Central Uruguay Railway Company en 1949 y qué implicaciones tuvo para el servicio ferroviario en Uruguay?,fue adquirida por el estado uruguayo
+89,USA,Los Ángeles,public_figure,hard,Elizabeth Eaton Burton,¿Qué reconocimiento recibió Elizabeth Eaton Burton en 1929 y por qué?,"la Palme Academique en 1929, en reconocimiento a sus esfuerzos en la promoción de la cultura y el arte franceses en California"
+90,Europe,Hungría,dish,hard,Túrós csusza,¿Qué ingredientes se utilizan para hacer los fideos húngaros de los túrós csusza y cómo se cuecen?,harina y huevo; se cuecen en agua
+91,LATAM,Argentina,tradition,medium,rafael mansilla,¿Qué se dice sobre los poderes de Rafael Mansilla?,Se dice que Rafael Mansilla tiene supuestos poderes milagrosos.
+92,LATAM,México,tradition,medium,Felipa Hernández Barragán,¿En qué año empezó Felipa Hernández Barragán a trabajar con arcilla?,en 1931
+93,LATAM,Costa Rica,geography,hard,Áreas protegidas de Palaos,¿Cuál es la importancia del Santuario Marino Nacional de Palaos en términos de biodiversidad marina?,"Alberga más de 1300 especies de peces, más de 400 especies de coral duro y más de 300 de coral blando."
+94,LATAM,Colombia,dish,easy,aguardiente,¿Qué es el aguardiente?,un término genérico para designar a una bebida alcohólica destilada de un fermentado alcohólico
+95,LATAM,Chile,public_figure,hard,nicanor molinare rencoret,¿Qué aportes significativos hizo Nicanor Molinare al cine chileno y a la música típica chilena?,Participó en la película “Dos corazones y una tonada” del año 1939 y introdujo el género de copuchas a la música típica chilena.
+96,Europe,Croacia,tradition,hard,Matija Petar Katančić,¿Cuál fue la obra de mayor importancia de Matija Petar Katančić para la literatura y cultura croata y en qué año se publicó?,"Su traducción completa de la Biblia en seis grandes volúmenes, publicada en Buda en el año 1831."
+97,LATAM,Honduras,fauna,easy,Anolis zeus,¿Qué tipo de especie es Anolis zeus?,especie de iguanios de la familia Dactyloidae
+98,LATAM,Argentina,tradition,hard,martha de los ríos,¿Qué reconocimiento recibió Martha de los Ríos por su contribución a la música folklórica de Argentina y quién es su hijo?,Un Premio Konex - Diploma al Mérito; Waldo de los Ríos
+99,USA,Estados Unidos,tradition,hard,Mel Brooks,¿Cuáles son dos de las producciones cinematográficas más reconocidas de Mel Brooks?,The Producers y Blazing Saddles
+100,USA,Seattle,public_figure,medium,Lucia Valentini Terrani,¿En qué año debutó Lucia Valentini Terrani en el Metropolitan Opera?,1974
+101,LATAM,Chile,flora,hard,adesmia leiocarpa,¿Dónde es nativa Adesmia leiocarpa y en qué bioma crece?,"Chile, subtropical"
+102,USA,Estados Unidos,flora,easy,Atriplex coronata,¿Qué tipo de planta es Atriplex coronata?,una especie de planta perenne perteneciente a la familia de las amarantáceas
+103,USA,Estados Unidos,tradition,hard,Barry White,¿Cuántos álbumes de oro logró Barry White y cuántos de ellos alcanzaron el estatus de platino?,106 álbumes de oro y 41 de platino
+104,USA,Estados Unidos,dish,hard,Lynja,¿Qué premios ganó Lynja en los Streamy Awards y en qué años?,"ganó el premio a ""Best Editing"" en la 11th Streamy Awards y ""Best Food"" en la 12th Streamy Awards"
+105,LATAM,Cuba,flora,easy,ateleia salicifolia,¿Qué tipo de especie es Ateleia salicifolia?,Especie de legumbre.
+106,USA,Illinois,geography,easy,Distrito electoral 6 (Illinois),¿Qué tipo de lugar es el distrito electoral 6 en Illinois?,distrito electoral
+107,Europe,Italia,public_figure,medium,Alessio Casimirri,¿En qué año se nacionalizó Alessio Casimirri como nicaragüense?,1988
+108,Europe,Italia,geography,medium,Asiria (provincia romana),¿En qué año fue creada la provincia romana de Asiria?,en 116 d. C.
+109,LATAM,Cuba,geography,easy,Cayo Ratón,¿Qué tipo de lugar es Cayo Ratón?,el nombre que recibe una isla del océano Atlántico
+110,Europe,España,object,medium,Amadeus IT Group,¿En qué año fue fundada Amadeus IT Group?,1987
+111,LATAM,Chile,dish,medium,durvillaea antarctica,¿Dónde habita Durvillaea antarctica?,la costa de los mares subantárticos
+112,LATAM,México,dish,easy,palomitas de maíz,¿Qué son las palomitas de maíz?,un aperitivo
+113,Europe,España,fauna,easy,Genêt d'Espagne,¿Qué es el Genêt d'Espagne?,Es una raza de caballo.
+114,LATAM,Colombia,tradition,medium,juan carlos coronel,¿En qué año nació Juan Carlos Coronel?,11 de julio de 1965
+115,USA,Seattle,public_figure,easy,Lucia Valentini Terrani,¿Qué profesión tenía Lucia Valentini Terrani?,mezzosoprano de coloratura italiana
+116,LATAM,México,dish,hard,molote,¿Cómo ha variado la preparación de los molotes a lo largo del tiempo y qué ingredientes se suelen utilizar para acompañarlos?,"Ha variado con el paso del tiempo; se acompaña con frijoles fritos caldoso, repollo o lechuga, queso fresco, crema, salsas picantes, y rodajas de zanahoria."
+117,USA,Nueva Jersey,geography,easy,Municipio de Raritan (Nueva Jersey),¿Qué tipo de lugar es el municipio de Raritan?,municipio
+118,LATAM,Costa Rica,fauna,easy,Craugastor stejnegerianus,¿Qué tipo de especie es Craugastor stejnegerianus?,una especie de anuros en la familia Craugastoridae
+119,USA,San Francisco,public_figure,easy,Penny Halliwell,¿Quién es Penny Halliwell?,un personaje de ficción
+120,LATAM,Argentina,fauna,hard,Laguna Tonchek,¿Qué actividad se realiza anualmente en la Laguna Tonchek y ha sido cuestionada por la Administración de Parques Nacionales?,se transforma en una pista de patinaje
+121,Europe,Italia,tradition,easy,Abadía de Innichen,¿Qué es la Abadía de Innichen?,un antiguo monasterio benedictino
+122,USA,San Francisco,public_figure,medium,Penny Halliwell,¿En qué año nació Penny Halliwell?,1930
+123,Europe,Italia,fauna,easy,Chthonius ischnocheles stammeri,¿Qué tipo de especie es Chthonius ischnocheles stammeri?,Es una subespecie de arácnido del orden Pseudoscorpionida de la familia Chthoniidae.
+124,USA,Estados Unidos,tradition,medium,Festival de Cine de Telluride,¿En qué fin de semana se celebra el Festival de Cine de Telluride?,el fin de semana del día del trabajo
+125,USA,Estados Unidos,fauna,hard,Eremobates septentrionis,¿A qué familia pertenece Eremobates septentrionis y qué características distintivas tiene esta especie?,Pertenece a la familia Eremobatidae.
+126,USA,Estados Unidos,object,easy,Trek Bicycle Corporation,¿En qué año fue creada Trek Bicycle Corporation?,en diciembre de 1975
+127,Europe,Italia,tradition,medium,Abadía de Innichen,¿En qué año fue convertida la Abadía de Innichen en colegiata?,en torno a 1146
+128,USA,Estados Unidos,dish,medium,Martes de tacos,"¿En qué año fue registrado el término ""Taco Tuesday""?",1989
+129,USA,Luisiana,geography,medium,Stanley (Luisiana),¿En qué parroquia se encuentra ubicada Stanley (Luisiana)?,la parroquia de De Soto
+130,LATAM,Perú,tradition,hard,Ramiro Llona,¿Qué significó la retirada de Ramiro Llona de la feria internacional de arte Art Lima en 2015?,Se retiró debido a la destrucción de 60 murales del centro de Lima gestionada por el alcalde Luis Castañeda Lossio.
+131,Europe,España,object,hard,Pedro Masaveu Rovira,¿Qué relación tuvo Pedro Masaveu Rovira con la creación del Banco de Oviedo y qué otros negocios importantes estableció en Asturias?,participó en la creación del Banco de Oviedo y creó los primeros grandes almacenes de Oviedo y la primera galería de arte de Asturias.
+132,USA,Estados Unidos,fauna,easy,Novohorus obscurus,¿Qué tipo de especie es Novohorus obscurus?,una especie de arácnido del orden Pseudoscorpionida de la familia Olpiidae
+133,LATAM,Venezuela,fauna,medium,Pristimantis imthurni,¿Dónde se encuentra Pristimantis imthurni?,Es endémica del tepuy Ptarí (Venezuela).
+134,Europe,España,fauna,medium,Genêt d'Espagne,¿Cuál es el uso principal del Genêt d'Espagne en la Edad Media?,Se utilizaba como palafrén o haquenée.
+135,Europe,Alemania,public_figure,hard,Paul Falkenberg,¿Cuáles son dos de las obras publicadas por Paul Falkenberg y en qué años fueron publicadas?,"""Vergleichende Untersuchungen über den Bau der Vegetationsorgane der Monocotyledonen"" en 1876 y ""Die Algen im weitesten Sinne"" en 1881"
+136,USA,Estados Unidos,flora,hard,Campus del Ventura County Community College District,¿Qué características distintivas tiene el Campus del Ventura County Community College District en relación a su ubicación y visión?,está en una ladera de 112 acres en el este de Ventura y tiene visión clara de las Islas del Canal desde varios lugares del campus
+137,Europe,Croacia,geography,hard,Golfo de Carnaro,¿Qué características del Golfo de Carnaro permiten la entrada de buques de gran calado en el puerto de Fiume?,su profundidad
+138,LATAM,México,object,hard,uriarte talavera,¿Qué métodos de fabricación utiliza Uriarte Talavera y desde cuándo?,los métodos de fabricación del siglo XVI
+139,LATAM,Cuba,geography,easy,Cerro de los Portales,¿Qué tipo de lugar es el Cerro de los Portales?,una formación montañosa
+140,USA,Estados Unidos,dish,easy,Lynja,¿En qué ciudad nació Lynja?,la ciudad de Nueva York
+141,Europe,Grecia,tradition,medium,Juan Ítalo,¿Quién fue el profesor de Juan Ítalo?,Miguel Pselo
+142,Europe,Croacia,geography,easy,Golfo de Carnaro,¿Qué tipo de lugar es el Golfo de Carnaro?,una bahía del mar Adriático
+143,USA,Estados Unidos,tradition,medium,Jodie Foster,¿En qué año se graduó Jodie Foster de la Universidad Yale?,1985
+144,LATAM,Bolivia,geography,hard,Provincia de Cornelio Saavedra,¿Qué presidente de la Primera Junta de gobierno de las Provincias Unidas del Río de la Plata da nombre a la provincia de Cornelio Saavedra y dónde nació?,"Cornelio Saavedra, nacido y bautizado en Otuyo."
+145,Europe,España,object,hard,Amadeus IT Group,¿Qué porcentaje del mercado mundial de soluciones tecnológicas para la industria del viaje ostentaba Amadeus IT Group en 2015 y en cuántos países opera?,el 28% del mercado mundial de soluciones tecnológicas para la industria del viaje y opera en 195 países
+146,LATAM,Venezuela,geography,hard,Congo Mirador,¿Qué factores contribuyeron a que alrededor del 90% de la población de Congo Mirador se marchara en 2018?,"la sedimentación del Lago de Maracaibo, la crisis económica y la falta de atención por parte de las autoridades"
+147,Europe,Serbia,tradition,medium,Matija Nenadović,¿Qué cargo ocupó Matija Nenadović en Serbia entre 1805 y 1807?,Ocupó el cargo de primer primer ministro de Serbia.
+148,LATAM,Argentina,dish,medium,tubby 3 y tubby 4,¿Qué ingredientes tenía el Tubby 3 y el Tubby 4?,El Tubby 3 tenía avellanas y el Tubby 4 caramelo de maní.
+149,LATAM,México,tradition,easy,Ranchera,¿Qué es la ranchera?,La ranchera es un estilo musical popular y folclórico de México.

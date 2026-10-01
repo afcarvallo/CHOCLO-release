@@ -1,0 +1,8 @@
+,0
+answers,12595.0
+questions,3150.0
+human_items,120.0
+spearman_judges,0.6884737378148721
+gap_corr_model_region,0.9778268014404525
+gap_corr_category,0.9721149100199652
+human_region_dev_kruskal_p_judge2,0.3358787118107151

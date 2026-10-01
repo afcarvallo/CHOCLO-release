@@ -1,0 +1,9 @@
+,0
+entities,2100.0
+questions,6315.0
+triplets,12251.0
+distinct_relations,3561.0
+relations_top25_share,0.4138437678556853
+triplets_per_question,1.9399841646872527
+triplets_latam_vs_others_p,2.5603681366042115e-07
+links_latam_vs_others_p,1.9944025809360817e-08

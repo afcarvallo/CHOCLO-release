@@ -1,0 +1,8 @@
+category,top_relations
+dish,"made_with (328), is_a (300), located_in (52), offered_in (26), used_for (22)"
+fauna,"located_in (372), is_a (346), belongs_to_family (201), distributed_in (94), family (62)"
+flora,"is_a (311), located_in (190), belongs_to_family (101), distributed_in (73), described_by (73)"
+geography,"is_a (297), located_in (258), has_population (16), population_2010 (16), borders_with (12)"
+object,"is_a (266), located_in (53), founded_in (47), made_with (27), founded_by (24)"
+public_figure,"is_a (169), born_in (78), full_name (58), nationality (24), born_on (21)"
+tradition,"is_a (183), born_in (43), located_in (43), celebrated_in (28), full_name (22)"
