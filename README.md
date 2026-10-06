@@ -76,4 +76,4 @@ similarity · `score_gpt` LLM-judge score (GPT-5-mini, graded 0-1). The paper's 
 
 ## License
 
-Data: MIT (derived from Wikipedia/Wikidata content under their respective licenses). Code: MIT.
+Data (Q/A pairs, triplets, model outputs, scores, annotations): CC BY-SA 4.0, since the Q/A pairs derive from Wikipedia text (CC BY-SA). Code: MIT.
